@@ -49,7 +49,7 @@ console.log(this.state.msg)
       <div className="App">
       <main className="main">
       <Switch>
-         <Route path='/' render={() =>
+         <Route exact path='/' render={() =>
           <Editor
             mood={this.state.mood}
             date={this.state.date}
@@ -59,6 +59,9 @@ console.log(this.state.msg)
             handleMsg = {this.handleMsg}
           />
         }/>
+        <Route path='/calendar' render={() =>
+         <Calendar />
+       }/>
       </Switch>
       </main>
       </div>
