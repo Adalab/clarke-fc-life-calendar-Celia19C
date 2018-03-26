@@ -2,13 +2,19 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  text-align: center;
 }
 .form {
-font-size: 15px;
-width: 50%;
-margin: 50% auto;
-border-radius: 15px;
-border: 2px solid grey;
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  /*border-radius: 15px;
+  border: 2px solid grey;*/
+  margin-top:100px;
+}
+.form_details {
+  margin: 0 auto;
 }
 .date,
 .msg,
@@ -19,12 +25,22 @@ border: 2px solid grey;
 .sad_mood {
   display: inline;
 }
-.label {
-  margin-left: 10px;
+.happy_mood {
+  margin-right: 4px;
+}
+.sad_mood {
+  margin-left: 4px;
 }
 .date {
   padding-top: 10px;
 }
+.save {
+  margin-right: 4px;
+}
+.cancel {
+  margin-left: 4px;
+}
+
 input {
-  margin: 10px 0 10px 10px;
+  margin: 10px 0 10px 0;
 }
