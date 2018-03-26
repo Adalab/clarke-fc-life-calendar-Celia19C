@@ -14,7 +14,7 @@ paintSmiles (){
       <ul>
         {this.props.moodTotal.sort(function(a,b) {
           return new Date(a.date) - new Date(b.date);}).map((cr) =>
-            <li key={cr.date}>
+            <li >
               <Smiles
                 date={cr.date}
                 mood={cr.mood}
