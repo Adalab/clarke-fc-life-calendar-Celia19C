@@ -11,11 +11,11 @@ class Editor extends React.Component {
         <input className="date2" type="date" name="date" onChange={this.props.handleDate} />
         <label className="label mood" htmlFor="mood">Estado</label>
         <div className="happy_mood">
-        <input className="happy"  type="checkbox" name="happy" onClick={this.props.handleMood}/>
+        <input className="happy"  type="radio" name="happy" onClick={this.props.handleMood}/>
         <label htmlFor="happy_"> :)</label>
         </div>
         <div className="sad_mood">
-        <input className="sad"  type="checkbox" name="sad" onClick={this.props.handleMood} />
+        <input className="sad"  type="radio" name="sad" onClick={this.props.handleMood} />
         <label htmlFor="sad"> :(</label>
         </div>
         <label className="label msg" htmlFor="msg">¿Por qué es un buen día?</label>

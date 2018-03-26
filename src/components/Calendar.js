@@ -5,6 +5,9 @@ import Smiles from './Smiles';
 
 class Calendar extends React.Component {
 
+
+
+
 paintSmiles (){
   return (
     <div className="smile_calendar">
@@ -21,8 +24,8 @@ paintSmiles (){
     </div>
   )
 }
+render() {
 
-  render(){
   return (
       <div>
         <header>
